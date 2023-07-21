@@ -1,0 +1,403 @@
+*{
+    margin: 0%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border: border-box;
+}
+.nav_1{
+    background-color:#0f1111;
+    height: 60px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nav_logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url(./Images/amazon_logo.png);
+    background-size: cover;
+    height: 50px;  
+    width: 100%;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+
+.add_first{
+       color: #cccccc;
+       font-size: 0.85 rem;
+       margin-left: 15px;
+}
+.add_sec{
+font-size: 1rem;
+margin-left: 3px;
+
+
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 13px;
+}
+.nav_address{
+    margin-left: 5px;
+}
+.nav_search{
+    display: flex;
+    background-color: aqua;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+.search_select{
+    background-color: #f3f3f3;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search_input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search_icon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: #eb972a;
+    border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+    color: #0f1111;
+}
+.nav_search:hover{
+    border: 2px solid orange;
+}
+.span{
+    font-size: 0.7rem;
+}
+ .nav_sign2{
+    font-size: 0.85rm;
+    font-weight: 700;
+
+    
+ }
+
+ .nav_card i{
+   font-size: 30px;
+
+ }
+ .nav_card{
+    font-size: 0.85rem;
+    font-weight: 700;
+ }
+
+ .nav_2{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ .nav2_ops p{
+    display: inline;
+    margin-left: 15px;
+
+ }
+ .nav2_ops{
+    width: 70%;
+    font-size: 0.85rem;
+ }
+.nav2_deals{
+    font-size: 0.9rem;
+font-weight: 700;
+    
+}
+.bg-section{
+    background-image: url(./Images/PC_Hero_3000x1200_2X_EN._CB600991698.jpg);
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+ 
+ /* .bg-sec-msg{            
+    background-color: white;
+    color: black;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px; 
+    bottom: 25px;
+    position: relative;
+}  */
+
+    /* shop section */
+     .shop-section{
+        display: flex;
+         flex-wrap: wrap; 
+        justify-content: space-evenly;
+        background-color: #e2e7e6;
+    }
+    
+    .card{
+        
+        /* border: 2px solid black; */
+        
+        height: 400px;
+        width: 23%;
+        background-color: white;
+        padding: 20px 0px 15px;
+        margin-top: 5px;
+    } 
+    .card-img{
+        height: 300px;
+        background-size:cover;
+        background-repeat: no-repeat;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        
+        
+    }
+    
+    
+.card-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+.card-content p{
+    color: #007185;
+}
+.sing-card{
+    width: 200px;
+    background-color: white;
+    height: 500x;
+
+}
+.footer{
+    margin-top: 15px;
+}
+.foot-part1{
+    background-color: #374758;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-part2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+     display: block; 
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot-part3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-logo{
+    background-image: url(./Images/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.foot-part4{
+    background-color: #0f1111;
+    color: white;
+    height: 100px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.pages{
+    padding-top: 25px;
+}
+.copyright{
+    padding-top: 5px;
+    
+}
+
+
+/*  */
+.section-2 {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    padding-top: 50px;
+    
+}
+.section-2 .section-2-container h3 {
+    margin-bottom: 10px;
+}
+.section-2 .section-2-container .product-cards {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+.section-2 .section-2-container .product-card {
+    display: inline-block;
+    width: 300px;
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.section-2 .section-2-container .product-card img {
+    width: auto;
+    height: auto;
+    max-width: 180px;
+    max-height: 200px;
+    
+} 
+
+
+.top-card {
+    display: flex;
+    height: 419px;
+    padding-left: 36px;
+    gap: 39px;
+    display: flex;
+    margin-bottom: 20px;
+    background: #ecf7fb;
+    justify-content: left;
+}
+
+.card-1 {
+
+    width: 288px;
+    background-color: white;
+    height: 419px;
+    margin-bottom: 7px;
+
+}
+
+.card-1img {
+    padding-left: 20px;
+    width: 248px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 5px;
+    row-gap: 20px;
+    margin-bottom: 8px;
+}
+
+.card-1img small {
+    font-size: x-small;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+
+.card-2 {
+    width: 288px;
+    height: 419px;
+    background-color: white;
+}
+
+.clearance {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 247px;
+    height: 277px;
+}
+
+.card-3 {
+    width: 288px;
+    height: 419px;
+    background-color: white;
+}
+
+.banner {
+    overflow-x: scroll;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 247px;
+    height: 277px;
+
+}
+
+.card-4 {
+    width: 299px;
+    height: 419px;
+
+
+}
+ .signin-card {
+    width: 299px;
+    height: 142px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.lap-card {
+    width: 299px;
+    height: 257px;
+    background-color: white;
+
+}
+
+.yello-btn {
+    width: 257px;
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    background-color: #FFD814;
+    color: black;
+    border: none;
+    outline: none;
+}
+
+.sub-container {
+    width: 100%;
+    height: 11.5cm;
+    background-color: #f0efee;
+    /* padding-top: 20px; */
+    
+
+}
